@@ -21,7 +21,7 @@ jobs:
     - name: Deploy to Server
       run: |
         ssh -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} << 'EOF'
-          cd /var/www/btss
+          cd /var/www/btss/btss-website
 
           echo "Pulling latest code..."
           git pull
