@@ -33,7 +33,7 @@ jobs:
           npm run build
 
           echo "Restarting application via PM2..."
-          pm2 restart btss || pm2 start npm -- start
+          pm2 start npm -- start
 
           pm2 save
         EOF
