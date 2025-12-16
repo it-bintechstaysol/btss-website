@@ -27,7 +27,7 @@ jobs:
           git pull
 
           echo "Installing dependencies..."
-          npm install --production
+          npm i
 
           echo "Building /dist directory"
           npm run build
