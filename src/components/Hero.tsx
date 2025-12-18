@@ -94,7 +94,7 @@ export const Hero = () => {
               <div className="grid grid-cols-3 gap-6">
                 <div className="text-left">
                   <div className="text-3xl font-bold text-foreground mb-1 flex items-center">
-                    1crore+
+                    1lakh
                     <Users className="w-5 h-5 text-blue-500 ml-1" />
                   </div>
                   <div className="text-sm text-muted-foreground">
@@ -103,7 +103,7 @@ export const Hero = () => {
                 </div>
                 <div className="text-left">
                   <div className="text-3xl font-bold text-foreground mb-1 flex items-center">
-                    870%
+                    99%
                     <Cloud className="w-5 h-5 text-green-500 ml-1" />
                   </div>
                   <div className="text-sm text-muted-foreground">
@@ -112,7 +112,7 @@ export const Hero = () => {
                 </div>
                 <div className="text-left">
                   <div className="text-3xl font-bold text-foreground mb-1 flex items-center">
-                    24/7 day and night
+                    24/7
                     <Shield className="w-5 h-5 text-purple-500 ml-1" />
                   </div>
                   <div className="text-sm text-muted-foreground">
